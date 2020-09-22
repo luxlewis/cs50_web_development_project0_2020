@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+      <link rel="stylesheet" type="text/css" href="custom.css">
+
+
+        <title>Search</title>
+    </head>
+    <body>
+      <nav>
+        <a href="index.html">Google Search</a>
+        <a href="Image_search.html">Images</a>
+      </nav>
+      <div>
+        <div>
+          <form action="https://google.com/search">
+              <div>
+                <label for="">all these words:</label>
+              </div>
+              <input type="text" name="q">
+              <input type="submit" value="Google Search">
+              <input type="hidden" name="as_qdr" value="all">
+          </form>
+        </div>
+        <div>
+          <form action="https://google.com/search">
+            <div>
+              <label for="">this exact word or phrase:</label>
+            </div>
+              <input type="text" name="as_epq">
+              <input type="submit" value="Google Search">
+              <input type="hidden" name="as_qdr" value="all">
+          </form>
+        </div>
+        <div>
+          <form action="https://google.com/search">
+            <div>
+              <label for="">any of these words:</label>
+            </div>
+              <input type="text" name="q">
+              <input type="submit" value="Google Search">
+          </form>
+          <div>
+            <form action="https://google.com/search">
+              <div>
+                <label for="">none of these words:</label>
+              </div>
+                <input type="text" name="q">
+                <input type="submit" value="Google Search">
+            </form>
+          </div>
+      </div>
+    </body>
+</html>

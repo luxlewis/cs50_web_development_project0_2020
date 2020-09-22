@@ -1,0 +1,10 @@
+body {
+  margin: 0, auto;
+  text-align: center;
+}
+
+.search {
+  border-radius: 50px;
+  border: 1px solid gray;
+
+}
