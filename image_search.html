@@ -3,6 +3,8 @@
     <head>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
       <link rel="stylesheet" type="text/css" href="custom.css">
 
 
@@ -13,10 +15,20 @@
         <a href="index.html">Google Search</a>
         <a href="advanced_search.html">Advanced</a>
       </nav>
-        <form action="https://www.google.com/search">
-            <input class="search" type="text" name="q">
-            <input type="hidden" name="tbm" value="isch">
-            <input type="submit" value="Image Search">
-        </form>
+      <div class="logo">
+        <img alt="Google" height="92" width="272" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+      </div>
+      <div>
+        <div>
+          <form action="https://www.google.com/search?">
+            <span class="fa fa-search"></span>
+          <input class="search" type="text" name="q">
+        </div>
+        <div>
+          <input type="hidden" name="tbm" value="isch">
+          <input class="btn-btn" type="submit" value="Image Search">
+        </div>
+          </form>
+      </div>
     </body>
 </html>

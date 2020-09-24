@@ -7,21 +7,34 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
 
       <link rel="stylesheet" type="text/css" href="custom.css">
 
 
     </head>
     <body>
-      <nav class="navbar navbar-light bg-light">
-        <a href="image_search.html">Images</a>
-        <a href="advanced_search.html">Advanced</a>
-      </nav>
-        <form action="https://google.com/search?">
-            <input class="search" name="q" type="text">
-            <input type="submit" value="Google Search">
-            <input type="submit" name="btnI" value="I'm Feeling Lucky" >
-
-        </form>
+      <div>
+        <nav>
+          <a href="image_search.html">Images</a>
+          <a href="advanced_search.html">Advanced</a>
+        </nav>
+      </div>
+      <div class="logo">
+        <img alt="Google" height="92" width="272" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+      </div>
+      <div>
+        <div>
+          <form action="https://google.com/search?">
+            <span class="fa fa-search"></span>
+          <input class="search" name="q" type="text">
+        </div>
+        <div class="btn-block">
+          <input class="btn-btn" type="submit" value="Google Search">
+          <input class="btn-btn" type="submit" name="btnI" value="I'm Feeling Lucky" >
+        </div>
+          </form>
+      </div>
     </body>
 </html>

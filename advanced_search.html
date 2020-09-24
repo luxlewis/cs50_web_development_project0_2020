@@ -6,55 +6,53 @@
       <link rel="stylesheet" type="text/css" href="custom.css">
 
 
-        <title>Search</title>
+        <title>Advanced Search</title>
     </head>
     <body>
       <nav>
-        <a href="index.html">Google Search</a>
         <a href="Image_search.html">Images</a>
+        <a href="index.html">Google Search</a>
       </nav>
-      <div>
-        <div>
-          <form action="https://google.com/search">
-              <div>
-                <label for="">all these words:</label>
-              </div>
-              <input type="text" name="q">
-              <input type="submit" value="Google Search">
-              <input type="hidden" name="as_qdr" value="all">
-          </form>
-        </div>
-        <div>
-          <form action="https://google.com/search">
-            <div>
-              <label for="">this exact word or phrase:</label>
-            </div>
-              <input type="text" name="as_epq">
-              <input type="submit" value="Google Search">
-              <input type="hidden" name="as_qdr" value="all">
-          </form>
-        </div>
-        <div>
-          <form action="https://google.com/search">
-            <div>
-              <label for="">any of these words:</label>
-            </div>
-              <input type="text" name="as_oq">
-              <input type="submit" value="Google Search">
-              <input type="hidden" name="as_qdr" value="all">
-
-          </form>
-          <div>
-            <form action="https://google.com/search">
-              <div>
-                <label for="">none of these words:</label>
-              </div>
-                <input type="text" name="as_eq">
-                <input type="submit" value="Google Search">
-                <input type="hidden" name="as_qdr" value="all">
-
-            </form>
-          </div>
+      <div class="logo-2">
+        <img alt="Google" height="20" width="60" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
       </div>
+      <div class="search-header">
+        <h6>Advanced Search<h6>
+      </div>
+        <div class="container">
+          <table>
+            <col width="30%">
+            <col width="70%">
+            <th>Find pages with...<th>
+          <form action="https://google.com/search">
+             <tr>
+                <td><label for="all-search">all these words:</label></td>
+                  <td><input class="adv-fld" type="text" name="q" id="all-search"></td>
+                  <input type="hidden" name="as_qdr" value="all">
+              </tr>
+              <tr>
+                <td><label for="exact-search">this exact word or phrase:</label></td>
+                  <td><input class="adv-fld" type="text" name="as_epq" id="exact-search"></td>
+                  <input type="hidden" name="as_qdr" value="all">
+              </tr>
+              <tr>
+                <td><label for="any-search">any of these words:</label></td>
+                  <td><input class="adv-fld" type="text" name="as_oq" id="any-search"></td>
+                  <input type="hidden" name="as_qdr" value="all">
+              </tr>
+              <tr>
+                <td><label for="none-search">none of these words:</label></td>
+                <td><input class="adv-fld" type="text" name="as_eq" id="none-search"></td>
+                <input type="hidden" name="as_qdr" value="all">
+              </tr>
+              <tr>
+                <td></td>
+                <td><input class="btn-btn-primary" type="submit" value="Advanced Search"></td>
+              </tr>
+            </form>
+          </table>
+
+
+
     </body>
 </html>
