@@ -21,6 +21,16 @@ table {
   width: 100%;
 }
 
+th {
+  text-align: left;
+  display: table-cell;
+  /* margin: 5px 20px; */
+  color: #222222;
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
 /* buttons */
 
 .btn-block {
@@ -68,7 +78,10 @@ input {
   padding: 109px 0px 0px;
 }
 
-
+.logo-2 {
+  margin: 10px;
+  text-align: left;
+}
 
 label {
   display: table-cell;
@@ -84,7 +97,7 @@ nav a {
   font-family: arial, sans-serif;
   font-size: 13px;
   margin: 5px;
-  padding: 0px 0px 0px 15px;
+  padding: 0px 10px 0px 0px;
   text-align: right;
 
 }
@@ -107,4 +120,12 @@ nav a {
   bottom: 2px;
   color: #9aa0a6;
   font-size: 12px;
+}
+
+.search-header {
+  border: 1 px solid #d9d9d9;
+  text-align: left;
+  color: #d93025;
+  margin-left: 55px;
+  margin-top: 15px;
 }
